@@ -1,0 +1,35 @@
+{
+	"name" : "hofff/contao-favicon",
+	"description" : "Favicon management for Contao CMS.",
+	"keywords" : [
+		"favicon",
+		"facebook",
+		"contao"
+	],
+	"type" : "contao-module",
+	"license" : "LGPL-3.0+",
+	"authors" : [
+		{
+			"name" : "Oliver Hoff",
+			"email" : "oliver@hofff.com",
+			"homepage" : "http://hofff.com/",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3",
+		"contao/core" : "~3.2"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Hofff" : "src/"
+		}
+	},
+	"extra" : {
+		"contao" : {
+			"sources" : {
+				"contao-module" : "system/modules/hofff_favicon"
+			}
+		}
+	}
+}
